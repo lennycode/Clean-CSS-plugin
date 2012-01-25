@@ -1,0 +1,8 @@
+Do you find yourself copying fragments of CSS to JQuery and then having to convert them to that 'map' notation? How about the other way around? Not only is it annoying but it wastes bandwidth due to the extra characters. This tiny plugin is the answer. Please check out testcss.html to see how to store a stylesheet in Javascript!
+
+Usage: $('').cCSS(<a valid css string>);
+Supports Jquery chaining. To be used only for 'setter' functionality.
+
+Note: Multiline strings in JavaScript must be escaped with a '\'. There are no heredocs in JS. See the example for details.
+
+Future: Make it a drop in replacement for .css() by detecting objects or the two parameters. Maybe allow it to return values as well.
